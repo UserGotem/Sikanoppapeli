@@ -1,0 +1,26 @@
+Säännöt - Sika yhdellä nopalla
+-
+-
+Lisäksi tarvitset yhden nopan.
+Pelin tarkoitus on kerätä sata pistettä tai enemmän (pistemäärän voi sopia ennen peliä) heittämällä noppaa tai noppia ja laskemalla heittojen summa yhteen.
+--
+Pelaaja heittää omalla vuorollaan noppaa niin pitkään, kunnes heittää ykkösen päättää lopettaa heittämisen.
+Jos pelaaja heittää ykkösen, hänen vuoronsa loppuu ja sen kierroksen heittojen summa nollataan. Vuoro siirtyy seuraavalle pelaajalle.
+Jos pelaaja päättää lopettaa heittämisen ennen kuin hän heittää ykkösen, heittojen summa lasketaan yhteen ja lisätään edellisen kierroksen summaan.
+Tämän jälkeen vuoro siirtyy seuraavalle pelaajalle.
+--
+Säännöt - Sika kahdella nopalla
+Sikaa voit pelata kahdella nopalla, jolloin säännöt muuttuvat hieman: Kun heität tuplat, saat tuplapisteet (esim. kaksi kolmosta on 12 pisteen arvoinen heitto) Kun heität kaksi ykköstä, saat 25 pistettä Kun heität vain toisella nopalla ykkösen, vuoro siirtyy seuraavalle pelaajalle etkä saa pisteitä Kun heität kolme tuplaa peräkkäin, vuoro siirtyy seuraavalle pelaajalle etkä saa pisteitä.
+Sika ei siis ole tämän monimutkaisempi noppapeli.
+Se on nopeatempoinen peli, jonka parissa aika kuluu rattoisasti
+--
+Vaikuttaa siltä, että kuvailet peliä, jossa on alussa kolme painiketta, mahdollisuus luoda pelaaja ja mahdollisuus pelata yhdellä tai kahdella noppaa.
+Valittuaan yhden tai kahden nopan välillä pelaaja aloittaa pelin painamalla yhtä painikkeista. Jos kahden nopan tulos on sama, pelaaja tuplaa pisteet.
+--
+Mutta jos sinulla on sellainen, hävisit täsmälleen yhdellä kierroksella, et voi ansaita pisteitä.
+--
+Tavoitteesi on päästä sataan - voitat tämän pelin.
+--
+Tsemppiä teille!
+
+- Oleg Mikhalev

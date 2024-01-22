@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikanoppapeli</title>
+    <head>
+        <!-- Meta --> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    <!-- Body START -->
+    <body>
+        <img src="images/voittaja.png" alt="winwinPig" id="winwin"> <!--it's hidden, until to winner is found-->
+        <!-- Add player -->
+        <form id="menu">
+            <input type="text" id="name" placeholder="Anna nimeä (1-4 pelaajaa)" onfocus="this.value=''">
+            <p id="alert"></p>
+            <!--Jos haluat tietää pelin säännöt, tämän projektin kansion sisällä on ohjeita.txt-->
+            <button type="button" id="addPlayer"><img src="images/add_name.png" alt="lisää pelaaja" onclick="addPlayerList()"><br>Lisää<br>pelaaja</button>
+            <button type="button"><img src="images/onedice.png" alt="noppa" onclick="oneDiceGame()"><br>Pelaa<br>yhdellä nopalla</button>
+            <button type="button"><img src="images/doubledice.png" alt="Tuplanopat" onclick="twoDiceGame()"><br>Pelaa<br>kahdella nopalla</button>
+        </form>
+        <!-- Gameboard -->
+        <div id="gameBoard">
+            <div id="gameButtons"></div>
+            <p id="showPoints"></p>
+            <div id="dices"></div>
+            <p id="alert2"></p>
+            <p id="currentPoint"></p><img id="alertPig">
+        </div>
+    <!-- player list -->
+        <div id="tableDiv">
+            <table id="playerList">
+                <tr id="players"></tr>
+                <tr id="points"></tr>
+            </table>
+        </div>
+
+    <script src="script.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
