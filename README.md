@@ -34,6 +34,6 @@ Once the players are added, the game starts. Each player takes turns rolling the
 2. Make your changes to the code and add appropriate tests.
 3. Submit a pull request to the main repository, clearly explaining your changes and rationale.
 
-##Screenshots of game
+## Screenshots of game
 ![Näyttökuva 2024-01-27 194518](https://github.com/UserGotem/Sikanoppapeli/assets/123076970/283a2bee-89bb-40b0-a51f-593cf0a99f8c)
 
