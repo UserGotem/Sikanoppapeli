@@ -36,4 +36,3 @@ Once the players are added, the game starts. Each player takes turns rolling the
 
 ## Screenshots of game
 ![Näyttökuva 2024-01-27 194518](https://github.com/UserGotem/Sikanoppapeli/assets/123076970/283a2bee-89bb-40b0-a51f-593cf0a99f8c)
-
